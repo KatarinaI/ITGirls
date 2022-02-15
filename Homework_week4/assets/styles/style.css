@@ -1,6 +1,4 @@
 body {
-    margin: 0;
-    padding: 0;
     width: 80%;
 }
 
@@ -12,45 +10,44 @@ header {
 }
 
 .logo {
+    /*логотип слева*/
     float: left;
     margin: 20px 0 0 30px;
     text-align: center;
     font-size: large;
     font-family: 'Poppins', sans-serif;
-    /*логотип слева*/
 }
 
 .menu {
-    float: right;
-    margin: 10px;
-    font-family: 'Poppins', sans-serif;
     /*меню*/
+    float: right;
+    margin: 30px 20px 0 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .contentleft {
+    /*блок под header слева*/
     float: left;
     width: 60%;
     padding: 0;
     margin: 0;
-    /*блок под header слева*/
-
 }
 
 .contentright {
+    /*блок под header справа*/
     float: right;
     width: 40%;
     padding: 0px;
-    /*блок под header справа*/
 }
 
 .inline {
-    display: inline;
     /*прописала, чтобы меню в одной строке располагалось*/
+    display: inline;
 }
 
-ul li a {
-    padding: 0 40px 0 0;
+p a {
     /*расстояние между элементами меню*/
+    padding: 20px 20px 0 0;
 }
 
 .a {
@@ -79,14 +76,11 @@ ul li a {
     margin: 0;
 }
 
-#list {
-    font-size: large;
-    text-decoration: none;
-    list-style-type: none;
+.list {
     font-family: 'Poppins', sans-serif;
     font-size: x-large;
-    padding: 40px 0 0 0;
-    line-height: 2.9;
+    padding: 20px 0 0 0;
+    line-height: 1.8;
 }
 
 .button {
