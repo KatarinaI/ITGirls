@@ -1,0 +1,108 @@
+body {
+    width: 80%;
+}
+
+header {
+    height: 80px;
+    background-color: #ff9900;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    /*логотип слева*/
+    float: left;
+    margin: 20px 0 0 30px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    /*меню*/
+    float: right;
+    margin: 30px 20px 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contentleft {
+    /*блок под header слева*/
+    float: left;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+.contentright {
+    /*блок под header справа*/
+    float: right;
+    width: 40%;
+    padding: 0px;
+}
+
+.inline {
+    /*прописала, чтобы меню в одной строке располагалось*/
+    display: inline;
+}
+
+p a {
+    /*расстояние между элементами меню*/
+    padding: 20px 20px 0 0;
+}
+
+.a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.a:hover {
+    text-decoration: underline;
+}
+
+#name {
+    color: #ffffff;
+}
+
+#fotoright {
+    float: right;
+    padding: 2vh;
+    width: 50%;
+}
+
+#fotoleft {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    padding: 20px 0 0 0;
+    line-height: 1.8;
+}
+
+.button {
+    border-color: #000000;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #000000;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover {
+    background: #ff9900;
+    transition: 1.5s;
+}
+
+.form {
+    float: right;
+    margin: 0 60px 0 0;
+}
+
+.footer {
+    float: left;
+}
