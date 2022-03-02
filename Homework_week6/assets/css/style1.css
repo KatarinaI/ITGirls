@@ -31,7 +31,7 @@
     margin-bottom: -4px;
 }
 
-.content_1 {
+.cosmetology {
     display: grid;
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
@@ -40,7 +40,7 @@
     margin-right: -20px;
 }
 
-#content_1_1 {
+#cosmetology_text {
     font-size: small;
 }
 
@@ -55,16 +55,16 @@
     padding: 0 10% 0 10%;
 }
 
-.menu_bottom_1,
-.menu_bottom_2,
-.menu_bottom_3 {
+.menu_bottom_complex,
+.menu_bottom_edu,
+.menu_bottom_vipclients {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     line-height: 55px;
 }
 
-.menu_bottom_1,
-.menu_bottom_3 {
+.menu_bottom_complex,
+.menu_bottom_vipclients {
     background: #00868a;
 }
 
