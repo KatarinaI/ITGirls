@@ -1,0 +1,74 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu_top {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    padding: 20px;
+    background-color: #4fbfa5;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu_top_child {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #4fbfa5;
+    padding: 0 10% 0 10%;
+    margin-bottom: -4px;
+}
+
+.cosmetology {
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    align-content: center;
+    gap: 20px;
+    margin-right: -20px;
+}
+
+#cosmetology_text {
+    font-size: small;
+}
+
+#img {
+    height: 60vh;
+}
+
+.menu_bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    background-color: #4fbfa5;
+    padding: 0 10% 0 10%;
+}
+
+.menu_bottom_complex,
+.menu_bottom_edu,
+.menu_bottom_vipclients {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 55px;
+}
+
+.menu_bottom_complex,
+.menu_bottom_vipclients {
+    background: #00868a;
+}
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+}
